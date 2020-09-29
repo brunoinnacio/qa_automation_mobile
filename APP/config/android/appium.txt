@@ -1,0 +1,11 @@
+
+[caps]
+platformName = "Android"
+appPackage = "com.blu.blurep"
+appActivity = ".MainActivity"
+app = "./app/android/staging240920.apk"
+autoGrantPermissions = true
+newCommandTimeout = 3600
+[appium_lib]
+wait = 20
+debug = false
