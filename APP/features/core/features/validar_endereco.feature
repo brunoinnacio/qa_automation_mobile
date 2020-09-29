@@ -4,9 +4,8 @@ Feature: Validar enderço da unidade de Brasilia
   @Fleury
   Scenario: Validar endereço com sucesso
 
-    Given estou na home
-    And Clico em unidade
-    When Eu scrollar a tela até a unidade de Brasilia
-    And Clicar nela
-    Then Deverá aparecer 
+    Given Estou na home
+    And Clico em Unidades
+    When Encontrar a unidade de Brasilia
+    Then Valido o endereco da unidade
     
